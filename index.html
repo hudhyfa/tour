@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/fav-icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Playfair+Display&family=Poppins:wght@100;200;400;500;600;700;800;900&family=Prata&family=Raleway&family=Roboto&family=Rubik:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- nav -->
+    <nav class="navigation">
+        <a href="#"  class="logo">
+            <i class="fa-brands fa-phoenix-framework"></i>
+            Travel
+        </a>
+
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#destination">Destination</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+        <a href="#" class="book-now-btn">Book Now</a>
+    </nav>
+
+    <section id="main">
+
+        <div class="main-content">
+
+        <div class="main-text">
+            <strong>
+                Explore The World
+                <i class="fa-solid fa-globe"></i>
+            </strong>
+            <h1>It's a Big World Out There, Go Explore</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia est, obcaecati quam saepe facilis eveniet omnis perspiciatis recusandae, hic neque dolore? Quam magnam est eaque modi ipsum dolorem necessitatibus sit?</p>
+            <a href="#">Book Online</a>
+        </div>
+        <div class="main-img">
+            <img src="./images/main.png" alt="">
+        </div>
+        </div>
+
+        <div class="search-tour">
+            <form action="">
+                <div class="t-search-box">
+                    <div class="s-b-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="s-b-input">
+                        <span>Location <i class="fas-fa-chevron-down"></i></span>
+                        <input type="text" name="location" placeholder="New York, USA" required/>
+                    </div>
+                </div>
+           
+                <div class="t-search-box">
+                    <div class="s-b-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="s-b-input">
+                        <span>Tour Date <i class="fas-fa-chevron-down"></i></span>
+                        <input type="date" required/>
+                    </div>
+                </div>
+            
+        
+                <div class="t-search-box">
+                    <div class="s-b-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="s-b-input">
+                        <span>Persons <i class="fas-fa-chevron-down"></i></span>
+                        <input type="number" name="persons" placeholder="5 Tourist" required/>
+                    </div>
+                </div>
+          
+        
+                <div class="t-search-btn">
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <section id="trending">
+        <div class="trending-heading">
+            <h2>Trending 2023</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="trending-box-container"> 
+
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="trending-box">
+                        <div class="t-b-img">
+                            <img src="./images/t-1.jpg" alt="">
+                        </div>
+                        <div class="t-b-text">
+                            <a href="#">San Fransico</a>
+                            <span>8 Places | 3 Activities</span>
+                        </div>
+                        <div class="price-book">
+                            <span class="t-price">200$</span>
+                            <a href="#" class="t-book">Book Now</a>
+                        </div>
+                        <div class="agency-name">
+                            <img src="./images/Agency_Name.png" alt="">
+                            <span>Goldenbridge agency</span>
+                        </div>
+                     </div>
+                   </div>
+                   <div class="swiper-slide">
+                    <div class="trending-box">
+                       <div class="t-b-img">
+                           <img src="./images/t-2.jpg" alt="">
+                       </div>
+                       <div class="t-b-text">
+                           <a href="#">Istanbul</a>
+                           <span>12 Places | 3 Activities</span>
+                       </div>
+                       <div class="price-book">
+                           <span class="t-price">200$</span>
+                           <a href="#" class="t-book">Book Now</a>
+                       </div>
+                       <div class="agency-name">
+                           <img src="./images/Agency_Name.png" alt="">
+                           <span>Erdogan agency</span>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="trending-box">
+                       <div class="t-b-img">
+                           <img src="./images/t-3.webp" alt="">
+                       </div>
+                       <div class="t-b-text">
+                           <a href="#">Nevada hills</a>
+                           <span>12 Places | 8 Activities</span>
+                       </div>
+                       <div class="price-book">
+                           <span class="t-price">200$</span>
+                           <a href="#" class="t-book">Book Now</a>
+                       </div>
+                       <div class="agency-name">
+                           <img src="./images/Agency_Name.png" alt="">
+                           <span>hikersco agency</span>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="trending-box">
+                       <div class="t-b-img">
+                           <img src="./images/t-4.jpg" alt="">
+                       </div>
+                       <div class="t-b-text">
+                           <a href="#">Lone island</a>
+                           <span>6 Places | 1 Activities</span>
+                       </div>
+                       <div class="price-book">
+                           <span class="t-price">200$</span>
+                           <a href="#" class="t-book">Book Now</a>
+                       </div>
+                       <div class="agency-name">
+                           <img src="./images/Agency_Name.png" alt="">
+                           <span>Nobody agency</span>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="trending-box">
+                       <div class="t-b-img">
+                           <img src="./images/t-5.jpg" alt="">
+                       </div>
+                       <div class="t-b-text">
+                           <a href="#">Peru</a>
+                           <span>14 Places | 13 Activities</span>
+                       </div>
+                       <div class="price-book">
+                           <span class="t-price">200$</span>
+                           <a href="#" class="t-book">Book Now</a>
+                       </div>
+                       <div class="agency-name">
+                           <img src="./images/Agency_Name.png" alt="">
+                           <span>Costaperu agency</span>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="trending-box">
+                       <div class="t-b-img">
+                           <img src="./images/t-6.jpg" alt="">
+                       </div>
+                       <div class="t-b-text">
+                           <a href="#">Manali</a>
+                           <span>8 Places | 5 Activities</span>
+                       </div>
+                       <div class="price-book">
+                           <span class="t-price">200$</span>
+                           <a href="#" class="t-book">Book Now</a>
+                       </div>
+                       <div class="agency-name">
+                           <img src="./images/Agency_Name.png" alt="">
+                           <span>Hindustan agency</span>
+                       </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+
+            
+        </div>
+    </section>
+
+
+    <section id="destination">
+        <div class="destination-heading">
+            <h2>TOP Destinations</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="destination-grid">
+            <div class="destination-box d-b-1">
+                <img src="./images/d-1.jpg" alt="">
+                <div class="d-b-text-container">
+                    <span class="ratio">3.5</span>
+                    <div class="d-b-text">
+                        <strong>Moscow</strong>
+                        <span>Russia</span>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-box d-b-2">
+                <img src="./images/d-2.jpg" alt="">
+                <div class="d-b-text-container">
+                    <span class="ratio">4</span>
+                    <div class="d-b-text">
+                        <strong>Vietnam</strong>
+                        <span>Waterfall</span>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-box d-b-3">
+                <img src="./images/d-3.jpg" alt="">
+                <div class="d-b-text-container">
+                    <span class="ratio">4.5</span>
+                    <div class="d-b-text">
+                        <strong>Istanbul</strong>
+                        <span>Turkey</span>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-box d-b-4">
+                <img src="./images/d-4.webp" alt="">
+                <div class="d-b-text-container">
+                    <span class="ratio">3</span>
+                    <div class="d-b-text">
+                        <strong>honolulu</strong>
+                        <span>Hawaai</span>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-box d-b-5">
+                <img src="./images/d-5.jpg" alt="">
+                <div class="d-b-text-container">
+                    <span class="ratio">5</span>
+                    <div class="d-b-text">
+                        <strong>Mali</strong>
+                        <span>Maldives</span>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-box d-b-6">
+                <img src="./images/d-6.webp" alt="">
+                <div class="d-b-text-container">
+                    <span class="ratio">4</span>
+                    <div class="d-b-text">
+                        <strong>Zimbabve</strong>
+                        <span>Africa</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="testimonials">
+        <div class="testimonials-img">
+            <img src="./images/testimonials-img.png" alt="">
+        </div>
+        <div class="testimonials-slider">
+
+              <!-- Swiper -->
+            <div class="swiper mySwipertest">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <div class="testimonials-box">
+                            <div class="testimonials-box-text">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <strong>Alex Falcan</strong>
+                            </div>
+                            <div class="testimonials-box-img">
+                                <img src="./images/t-member.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="testimonials-box">
+                            <div class="testimonials-box-text">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <strong>Alex Falcan</strong>
+                            </div>
+                            <div class="testimonials-box-img">
+                                <img src="./images/t-member.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="testimonials-box">
+                            <div class="testimonials-box-text">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <strong>Alex Falcan</strong>
+                            </div>
+                            <div class="testimonials-box-img">
+                                <img src="./images/t-member.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="testimonials-box">
+                            <div class="testimonials-box-text">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <strong>Alex Falcan</strong>
+                            </div>
+                            <div class="testimonials-box-img">
+                                <img src="./images/t-member.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="subscribe">
+        <h3>Subscribe our NewsLetter</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <form>
+            <input type="email" placeholder="Enter Your Email" required>
+            <button>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <strong>Travel</strong>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ipsum at est nemo quidem voluptate!</p>
+                <div class="footer-social">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <strong class="unique">Links</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Book Online</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        
+            
+            <div class="footer-box">
+                <strong>Contact</strong>
+                <span><i class="fas fa-map-marker-alt"></i> 26th street, New York City</span>
+                <span><i class="far fa-envelope"></i>Something@gmail.com</span>
+                <span><i class="fas fa-phone-square"></i> +012345678</span>
+            </div>
+        </div>
+
+    </footer>
+    <span class="copyright">Made by Hudyfa 2023 - All Copyright Reserved</span>
+
+    
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+
+    var swiper = new Swiper(".mySwipertest", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
